@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:a5000
+N;CHARSET=UTF-8:Воробьева;Дарья;Александровна
+FN;CHARSET=UTF-8:Дарья Александровна Воробьева 
+EMAIL;TYPE=work;CHARSET=UTF-8:marketing@soshiem-vishiem.ru
+TEL;TYPE=work;CHARSET=UTF-8:+79081209314
+ADR;CHARSET=UTF-8;TYPE=work:
+TITLE;CHARSET=UTF-8:Сотрудник стенда
+ORG;CHARSET=UTF-8:Сошьем и вышьем
+REV:2024-10-29T11:14:57Z
+END:VCARD
