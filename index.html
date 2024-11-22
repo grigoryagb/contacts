@@ -65,7 +65,7 @@
 							<img src="img/control-mail-n.png" height="70" alt="">
 							Отправить
 						</a>						
-						<a href="./vcard.vcf">
+						<a onclick="onFileDownload()" href="./vcard.vcf">
 							<img src="img/control-download-n.png" height="70" alt="">
 							Загрузить
 						</a>
@@ -120,7 +120,7 @@
 				<!-- /Profile Title -->
 
 				<div>
-					<a href="./vcard.vcf" class="btn btn-link">
+					<a href="./vcard.vcf" onclick="onFileDownload()" class="btn btn-link">
 						Добавить в контакты
 					</a>
                     <a href="https://businessbreakfast.accredcenter.ru/lk/?key=3Cac8RzOQu8E9B8KuY6n" class="btn btn-link mb-25" height="70" alt="">
@@ -164,13 +164,13 @@
 		// }
 	}
 
-	const downloadButton = document.querySelectorAll("[href='./vcard.vcf']");
+	// const downloadButton = document.querySelectorAll("[href='./vcard.vcf']");
 
-	downloadButton.forEach(button => {
-		button.addEventListener('click', function() {
-			onFileDownload("test");
-		})
-	});
+	// downloadButton.forEach(button => {
+	// 	button.addEventListener('click', function() {
+	// 		onFileDownload("test");
+	// 	})
+	// });
 </script>
 
 </body>
