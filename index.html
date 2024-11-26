@@ -166,35 +166,10 @@
 		</ol>
 		<p>Вот как все просто! :)</p>
 	</div>
-
-  </div>
+</div>
 
 <script src="js/vcard.js?3"></script>
-<script>
-	const isAndroid = () => {
-		return /Android/i.test(navigator.userAgent);
-	}
-	const addContactModal = document.getElementById("addContactModal");
-	const downloadContactButton = document.querySelectorAll("[href='./vcard.vcf']");
-	const closeAddContactModalButton = document.getElementById("closeAddContactModalButton");
-	downloadContactButton.forEach(button => {
-		button.addEventListener('click', function() {
-			if (isAndroid()) {
-				addContactModal.style.display = "block";
-			}
-		})
-	});
-
-	window.onclick = function(event) {
-		if (event.target == addContactModal) {
-			addContactModal.style.display = "none";
-		}
-	}
-
-	closeAddContactModalButton.onclick = function() {
-		addContactModal.style.display = "none";
-	}
-</script>
+<script src="js/instructionModal.js?3"></script>
 
 </body>
 </html>

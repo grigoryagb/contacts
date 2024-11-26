@@ -325,9 +325,9 @@ img {
 	overflow: auto;
 	background-color: rgb(0,0,0);
 	background-color: rgba(0,0,0,0.4);
-  }
+}
   
-  .modal-content {
+.modal-content {
 	background-color: #fefefe;
 	margin: auto;
 	padding: 20px;
@@ -335,32 +335,32 @@ img {
 	width: 80%;
 	border-radius: .3rem;
 	max-width: 500px;
-  }
+}
 
-  .modal-header {
+.modal-header {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-  }
+}
 
-  .modal-header h5 {
+.modal-header h5 {
 	font-size: 1.25rem;
 	margin: .5rem 0;
-  }
-  
-  .closeModalButton {
+}
+
+.closeModalButton {
 	color: #aaaaaa;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
-  }
-  
-  .closeModalButton:hover,
-  .closeModalButton:focus {
+}
+
+.closeModalButton:hover,
+.closeModalButton:focus {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
-  }
+}
 
 
 
